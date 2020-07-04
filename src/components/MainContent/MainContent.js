@@ -4,6 +4,7 @@ import MenuItems from './MenuItems';
 import ImageSlider from './ImageSlider';
 import imagesJSON from '../../images.json';
 import dataJSON from '../../data.json';
+import Dropdown from '../Dropdown';
 
 const MainContent = () => {
   // Mock data
@@ -41,11 +42,11 @@ const MainContent = () => {
           >
             Тип ремонта
           </p>
-          <select disabled className={styles.customSelect} name='Тип ремонта'>
-            <option value='0'>Smart Comfort</option>
-          </select>
+          <Dropdown
+            data={['Smart Standard', 'Smart Optimal', 'Smart Comfort']}
+            onChange={() => {}}
+          />
         </div>
-
         <MenuItems
           currentId={index}
           clickHandler={clickHandler}
