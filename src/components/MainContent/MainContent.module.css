@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+}
+
+.container img {
+  display: block;
+  width: 90%;
+  height: 75%;
+}
+
+.content::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: -66px;
+  width: 180px;
+  height: calc(50% + 50px);
+  background-color: #dfeffe;
+  z-index: -2;
+}
+
+.sidebar {
+  flex: 1;
+}
+
+.content {
+  position: relative;
+  flex: 3.2;
+  margin-left: 25px;
+}
+
+.customSelect {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  font-family: Montserrat, 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 29px;
+  padding: 10px 10px;
+  color: #192743;
+  border: 2px solid #eaedf2;
+  -webkit-appearance: none;
+  background: url('../../assets/dd-arrow.png') 95% / auto no-repeat;
+  outline: none;
+}

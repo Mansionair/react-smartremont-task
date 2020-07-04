@@ -1,0 +1,101 @@
+.sliderContainer {
+  position: relative;
+  max-height: 480px;
+  overflow: hidden;
+}
+
+.buttonsContainer {
+  position: absolute;
+  right: 0px;
+  bottom: -3px;
+}
+
+.sliderContainer img {
+  width: 100%;
+}
+
+.buttonsContainer button {
+  display: inline-block;
+  cursor: pointer;
+  border: 0;
+  background-color: #e32735;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 57px;
+  height: 62px;
+}
+
+.buttonsContainer button:first-child {
+  background-image: url('../../assets/left-arrow.png');
+}
+
+.buttonsContainer button:last-child {
+  background-image: url('../../assets/right-arrow.png');
+}
+
+.itemDescription {
+  padding-bottom: 40px;
+  margin-top: 25px;
+  width: 785px;
+  font-size: 1.4rem;
+}
+
+.itemDescription h3::before {
+  content: '';
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #e32735;
+  background-repeat: no-repeat;
+  width: 5px;
+  height: 5px;
+  background-position: center;
+  margin-right: 10px;
+  margin-bottom: 3px;
+}
+
+.itemDescription h3,
+span {
+  font-weight: 600;
+}
+
+.itemDescription h3 {
+  display: inline-block;
+}
+
+.itemDescription span {
+  color: #9294a2;
+}
+
+.itemDescription p {
+  margin-top: 16px;
+  line-height: 2.2rem;
+}
+
+.itemDescription h3::after {
+  content: '—';
+  margin: 0 4px;
+}
+
+.itemDescriptionWrapper {
+  display: flex;
+}
+
+.itemsCounter {
+  margin-left: 30px;
+  margin-top: 20px;
+  font-size: 2rem;
+}
+
+.currentItem {
+  font-weight: 600;
+}
+
+.totalItems {
+  color: #9294a2;
+}
+
+.totalItems::before {
+  content: '/';
+  margin: 0 3px;
+}

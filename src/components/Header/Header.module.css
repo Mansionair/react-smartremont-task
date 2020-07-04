@@ -1,6 +1,6 @@
 .headerWrapper {
   display: flex;
-  height: 450px;
+  height: 430px;
 }
 
 .leftPanel {
@@ -20,9 +20,6 @@
 
 .leftPanel button {
   margin-top: 30px;
-}
-
-button {
   border: 2px solid #e42734;
   padding: 20px 26px;
   font-size: 1.2rem;
@@ -34,6 +31,11 @@ button {
   background-color: #fff;
 }
 
+.leftPanel button:hover {
+  color: #fff;
+  background-color: #e42734;
+}
+
 .rightPanel {
   flex: 3.2;
   position: relative;
@@ -42,6 +44,11 @@ button {
 .rightPanel p {
   display: inline-block;
   font-size: 3rem;
+}
+
+.rightPanel span {
+  letter-spacing: 2px;
+  color: #e42734;
 }
 
 .textWrapper {
@@ -62,9 +69,4 @@ button {
   height: 100px;
   background-image: url('../../assets/dots-bg.png');
   z-index: -2;
-}
-
-.rightPanel span {
-  letter-spacing: 2px;
-  color: #e42734;
 }

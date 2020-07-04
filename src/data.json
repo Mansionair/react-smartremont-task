@@ -1,0 +1,77 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "ЖК Бриллиантовый",
+      "address": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus nemo nostrum possimus nihil saepe amet nam numquam commodi beatae suscipit fugiat, temporibus veniam voluptates dolor autem repudiandae, accusamus expedita. Doloribus nostrum, beatae animi, provident ullam eveniet dignissimos eaque blanditiis esse!"
+    },
+    {
+      "id": 2,
+      "title": "ЖК Малахитовый",
+      "address": "Dignissimos dolorum architecto sunt officia neque maxime id",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem harum, temporibus debitis qui, suscipit, minima illum possimus praesentium laboriosam est accusantium ratione eius? Vitae animi, tempore atque quisquam ipsam, a quae aliquam repellendus debitis sed obcaecati unde voluptatem voluptate vero?"
+    },
+    {
+      "id": 3,
+      "title": "г.Алматы, ул.Академика, 48",
+      "address": "Maiores nulla repellendus dicta magnam debitis ad, hic excepturi",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nihil fuga porro temporibus nisi debitis doloribus rerum maxime! Quod velit ullam aliquam, recusandae libero modi illum facere maxime animi pariatur veritatis, at ex a praesentium eaque perferendis. Ducimus, illum, quos."
+    },
+    {
+      "id": 4,
+      "title": "г.Нур-Султан, ул.Элона Маска, 48",
+      "address": "Sapiente accusamus minus eum. Nisi aperiam modi quas, dolore",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem id doloremque ipsa delectus voluptatum vero atque. Molestiae, et vel dolorum reprehenderit quibusdam quae officiis corrupti dolor numquam optio. Sapiente accusamus ullam sunt laboriosam veniam rerum numquam, commodi quisquam voluptas perspiciatis."
+    },
+    {
+      "id": 5,
+      "title": "г.Алматы пр. Победы, 11",
+      "address": "Illo autem fugiat suscipit ab quidem repudiandae praesentium",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam reiciendis nostrum maxime id deleniti, vitae unde corporis. Nobis vitae, porro quam sapiente ipsa molestiae aliquid quis ab dolorem sint sequi repudiandae vel magnam ad quaerat! Delectus esse cum cupiditate odio."
+    },
+    {
+      "id": 6,
+      "title": "ЖК Барбарис",
+      "address": "Possimus aspernatur obcaecati odio natus pariatur iste accusamus",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum sit architecto quasi eaque aut dolorum odit ullam deserunt deleniti, quas, labore, doloremque omnis magnam adipisci. Quis in, modi, molestias doloribus aspernatur totam, numquam, odio suscipit optio repellat maiores dolore provident."
+    },
+    {
+      "id": 7,
+      "title": "ЖК Озерные пруды",
+      "address": "Et temporibus quisquam, quis labore doloremque ea laborum tempora",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis soluta voluptatibus ea et architecto nulla libero quod. Odio nemo architecto, ipsum iure quae alias quis blanditiis voluptatum hic, odit tenetur quo, animi ut voluptate quos consequuntur magnam minima officia a?"
+    },
+    {
+      "id": 8,
+      "title": "г.Алматы, ул.Академика, 48",
+      "address": "Ex assumenda error. Voluptatum culpa, odio quibusdam aut perferendis",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum eius laudantium, sed delectus officia ipsam incidunt earum, laboriosam quos perspiciatis suscipit quidem possimus maiores natus, officiis nam consequatur atque facilis, rerum iste minima! Vitae temporibus, iusto perferendis accusantium atque minima."
+    },
+    {
+      "id": 9,
+      "title": "ЖК Малахитовый",
+      "address": "Saepe doloribus enim odit quia incidunt officiis sed distinctio",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aut, aliquid inventore ipsa eaque. Modi beatae ab cupiditate adipisci doloribus officia, laboriosam consectetur et in eligendi voluptatibus delectus nesciunt nemo dolores doloremque quia id, blanditiis expedita dolorem impedit sunt, quae!"
+    },
+    {
+      "id": 10,
+      "title": "г.Алматы, ул.Академика, 48",
+      "address": "Deleniti temporibus dignissimos voluptatibus facere hic dicta",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit similique ratione, quas at quibusdam debitis eligendi! Aperiam commodi, accusamus harum at asperiores deleniti facilis aliquid eius, incidunt corrupti quae doloribus molestias voluptas quo. Debitis nostrum deleniti, quos sint illo error."
+    },
+    {
+      "id": 11,
+      "title": "г.Нур-Султан, ул.Элона Маска, 48",
+      "address": "Cum id sunt. Autem numquam non rerum culpa, repudiandae ipsa",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem, enim culpa maxime. Aliquam, eos fuga, ea quis voluptates explicabo voluptas! Veritatis vel quam rem nisi vero eaque fuga, nulla eos, error maiores repellat obcaecati sequi saepe commodi officiis voluptatem."
+    },
+    {
+      "id": 12,
+      "title": "г.Алматы пр. Победы, 11",
+      "address": "Eaque expedita sequi aperiam, sint ab",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem ratione iusto harum esse et amet molestiae quis odio, id architecto quia pariatur eaque. Qui fugit eos suscipit natus, nisi nostrum? Molestias at, consequatur praesentium eveniet eos modi eius, quaerat dicta."
+    }
+  ],
+  "total": 12
+}
