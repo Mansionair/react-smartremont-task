@@ -70,3 +70,46 @@
   background-image: url('../../assets/dots-bg.png');
   z-index: -2;
 }
+
+@media screen and (max-width: 480px) {
+  .headerWrapper {
+    flex-direction: column;
+  }
+
+  .leftPanel h1 {
+    font-size: 6rem;
+    line-height: 7rem;
+  }
+
+  .leftPanel p {
+    margin-top: 26px;
+    font-size: 1.8rem;
+    line-height: 3rem;
+  }
+
+  .leftPanel button {
+    font-size: 2rem;
+    width: calc(100% - 15px);
+    margin: 30px auto;
+  }
+
+  .dottedBackground {
+    top: 10px;
+    left: 0px;
+    width: 90%;
+  }
+
+  .rightPanel p {
+    font-size: 3.6rem;
+  }
+
+  .textWrapper {
+    top: 60px;
+    left: 0;
+    width: 90%;
+    margin-bottom: 200px;
+  }
+  .headerWrapper {
+    margin-bottom: 300px;
+  }
+}

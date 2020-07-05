@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import styles from './MainContent.module.css';
-import MenuItems from './MenuItems';
-import ImageSlider from './ImageSlider';
+import MenuItems from './Sidebar/MenuItems';
+import Slider from './Slider/Slider';
 import imagesJSON from '../../images.json';
 import dataJSON from '../../data.json';
-import Dropdown from '../Dropdown';
+import Dropdown from '../common/Dropdown';
 
 const MainContent = () => {
   // Mock data
@@ -25,6 +25,11 @@ const MainContent = () => {
     setIndex((currentId) => currentId - 1);
   };
 
+  // Dropdown selected option change hanlder
+  const onDropdownChange = (itemId) => {
+    setIndex(() => itemId);
+  };
+
   return (
     <div className={styles.container}>
       <div className={styles.sidebar}>
@@ -43,8 +48,27 @@ const MainContent = () => {
             Тип ремонта
           </p>
           <Dropdown
+            currentOption={2}
             data={['Smart Standard', 'Smart Optimal', 'Smart Comfort']}
             onChange={() => {}}
+          />
+          <p
+            className={styles.selectTitle}
+            style={{
+              marginTop: 14,
+              fontSize: '1rem',
+              textTransform: 'uppercase',
+              fontWeight: 700,
+              letterSpacing: '1.8px',
+            }}
+          >
+            Сделанные ремонты
+          </p>
+          <Dropdown
+            currentOption={index}
+            className='mobileSelect'
+            data={data.items.map((item) => item.title)}
+            onChange={onDropdownChange}
           />
         </div>
         <MenuItems
@@ -54,8 +78,8 @@ const MainContent = () => {
           items={data.items}
         />
       </div>
-      <div className={styles.content}>
-        <ImageSlider
+      <div className={styles.content} id='slider'>
+        <Slider
           currentId={index}
           total={data.total}
           items={data.items}

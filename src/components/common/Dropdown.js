@@ -2,10 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Dropdown.module.css';
 
-const Dropdown = ({ data, onChange }) => {
+const Dropdown = ({ data, onChange, className, currentOption }) => {
   return (
-    <div>
+    <div className={className}>
       <select
+        value={currentOption}
         className={styles.select}
         onChange={(e) => {
           onChange(parseInt(e.target.value));
@@ -24,6 +25,8 @@ const Dropdown = ({ data, onChange }) => {
 Dropdown.propTypes = {
   data: PropTypes.array.isRequired,
   onChange: PropTypes.func.isRequired,
+  className: PropTypes.string,
+  currentOption: PropTypes.number.isRequired,
 };
 
 export default Dropdown;

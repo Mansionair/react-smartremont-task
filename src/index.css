@@ -1,3 +1,9 @@
+* {
+  /* transition: all 0.2s; */
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: Montserrat, 'Open Sans', Helvetica, Arial, sans-serif;
 }
@@ -14,11 +20,22 @@ body {
   margin: 0 auto;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
 button {
   outline: none;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    width: 100%;
+  }
+  img {
+    width: auto;
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .mobileSelect {
+    display: none;
+  }
 }

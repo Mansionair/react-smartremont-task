@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './ImageSlider.module.css';
+import styles from './Slider.module.css';
 
-const ImageSlider = ({
+const Slider = ({
   currentId,
   images,
   items,
@@ -29,19 +29,21 @@ const ImageSlider = ({
         </div>
       </div>
 
-      <div className={styles.itemDescriptionWrapper}>
-        <div className={styles.itemDescription}>
-          <h3>{titles[currentId]}</h3>
-          <span className={styles.itemAddress}>{addresses[currentId]}</span>
-          <p>{descs[currentId]}</p>
+      <div className={styles.itemDescription}>
+        <div className={styles.itemTitleWithCounter}>
+          <div className={styles.itemTitle}>
+            <h3>{titles[currentId]}</h3>
+            <span className={styles.itemAddress}>{addresses[currentId]}</span>
+          </div>
+          <div className={styles.itemsCounter}>
+            <span className={styles.currentItem}>{currentId + 1}</span>
+            <span className={styles.totalItems}>{total}</span>
+          </div>
         </div>
-        <div className={styles.itemsCounter}>
-          <span className={styles.currentItem}>{currentId + 1}</span>
-          <span className={styles.totalItems}>{total}</span>
-        </div>
+        <p>{descs[currentId]}</p>
       </div>
     </div>
   );
 };
 
-export default ImageSlider;
+export default Slider;
