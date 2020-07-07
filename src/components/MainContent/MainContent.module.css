@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+}
+
+.container img {
+  display: block;
+  width: 90%;
+  height: 75%;
+}
+
+.content::after {
+  content: '';
+  position: absolute;
+  right: -66px;
+  width: 180px;
+  bottom: 0;
+  height: calc(50% + 50px);
+  background-color: #dfeffe;
+  z-index: -2;
+}
+
+.sidebar {
+  flex: 1;
+}
+
+.content {
+  position: relative;
+  flex: 3.2;
+  margin-left: 25px;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    flex-direction: column;
+    width: 95%;
+    margin-top: 350px;
+  }
+
+  .content {
+    margin-left: 0;
+  }
+
+  .content::after {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .selectTitle {
+    display: none;
+  }
+}

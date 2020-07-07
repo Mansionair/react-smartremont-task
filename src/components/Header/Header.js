@@ -11,7 +11,9 @@ const Header = () => {
           товаров по отдельности
         </p>
 
-        <button>Выбрать дизайн</button>
+        <a href='#slider'>
+          <button>Выбрать дизайн</button>
+        </a>
       </div>
       <div className={styles.rightPanel}>
         <div className={styles.dottedBackground}></div>
