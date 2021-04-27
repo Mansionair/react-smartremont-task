@@ -2,8 +2,7 @@
 
 ## Getting started
 
-1. Run `yarn` to install dependencies
-2. Run `yarn start` to start app
+1. Run `yarn start` to start app
 
 ## Requirements:
 
